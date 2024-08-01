@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+* {
+  font-family: 'Hahmlet', serif;
+}
+
+.bg {
+  width: 360px;
+  background-image: url("https://i.postimg.cc/WzJF5FPW/white-paper-texture.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.img1 {
+  background-image: url("https://i.postimg.cc/DmVyCx2H/post-it-1.png");
+}
+
+.title {
+  background-color: tomato;
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: white;
+  text-align: center;
+
+}
+
+.msg {
+  margin: -5px 0 15px;
+}
+
+.bucket-input {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#bucketItem {
+  height: 30px;
+  font-size: 18px;
+}
+
+.bucket-input input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.bucket-input button {
+  background-color: tomato;
+  color: white;
+  height: 35px;
+  border: none;
+  border-radius: 10%;
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.bucket-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.bucket-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  word-break: break-all;
+}
+
+.bucket-list .delete-btn {
+  background-color: #ff3333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
